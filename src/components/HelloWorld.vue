@@ -5,6 +5,7 @@
       outlined
       rounded
     > CliCK Me </v-btn>
+
     <v-row class="text-center">
       <v-col cols="12">
         <v-img
@@ -15,7 +16,7 @@
         />
       </v-col>
 
-      <v-col class="mb-4">
+      <v-col class="mb-4" cols="12">
         <h1 class="display-2 font-weight-bold mb-3">
           Welcome to Vuetify
         </h1>
@@ -29,7 +30,7 @@
         </p>
       </v-col>
 
-      <v-col class="mb-5" cols="12">
+      <v-col class="mb-5" cols="6">
         <h2 class="headline font-weight-bold mb-3">
           What's next?
         </h2>
@@ -47,7 +48,7 @@
         </v-row>
       </v-col>
 
-      <v-col class="mb-5" cols="12">
+      <v-col class="mb-5" cols="6">
         <h2 class="headline font-weight-bold mb-3">
           Important Links
         </h2>
