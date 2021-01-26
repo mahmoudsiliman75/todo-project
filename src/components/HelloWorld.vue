@@ -1,5 +1,10 @@
 <template>
   <v-container>
+    <v-btn
+      elevation="2"
+      outlined
+      rounded
+    > CliCK Me </v-btn>
     <v-row class="text-center">
       <v-col cols="12">
         <v-img
