@@ -39,8 +39,9 @@ export default {
   data() {
     return {
       links: [
-        {icon: 'mdi-home', text: 'DashBoard', route: '/home' },
+        {icon: 'mdi-home', text: 'DashBoard', route: '/dashboard' },
         {icon: 'mdi-folder', text: 'My Projects', route: '/projects' },
+        {icon: 'mdi-heart', text: 'Team', route: '/team' },
         {icon: 'mdi-help', text: 'About Us', route: '/about' },
       ],
     }
