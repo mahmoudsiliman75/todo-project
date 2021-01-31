@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-main>
+    <v-main class="mx-4">
       <the-nav-bar></the-nav-bar>
       <router-view></router-view>
     </v-main>
