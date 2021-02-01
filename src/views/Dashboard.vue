@@ -20,9 +20,8 @@
             <div> {{project.due}} </div>
           </v-col>
 
-          <v-col cols="2" sm="4" md="2">
-            <div class="caption grey--text"> Status </div>
-            <div> {{project.status}} </div>
+          <v-col cols="4" sm="4" md="2" class="d-flex align-center justify-start justify-md-end">
+            <v-chip outlined :class="`chip ${project.status}`"> {{project.status}} </v-chip>
           </v-col>
         </v-row>
       </v-card>
@@ -40,22 +39,49 @@ export default {
         { title: 'Create Laravel Website', person: 'Mohamed Eid', due: '15th May 2021', status: 'Ongoing', content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eos quasi, nam asperiores possimus ad placeat vel id facilis nemo maxime, odit vero enim suscipit aut ea ipsam aspernatur explicabo.' },
         { title: 'Create php Website', person: 'Mohamed Eid', due: '21th Jan 2021', status: 'Complete', content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eos quasi, nam asperiores possimus ad placeat vel id facilis nemo maxime, odit vero enim suscipit aut ea ipsam aspernatur explicabo.' },
         { title: 'Create Vue Website', person: 'Mahmoud Siliman', due: '3rd Mars 2021', status: 'Overdue', content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eos quasi, nam asperiores possimus ad placeat vel id facilis nemo maxime, odit vero enim suscipit aut ea ipsam aspernatur explicabo.' },
-      ]
+      ],
     };
   },
 };
 </script>
 
 <style scoped>
+
+/* SATRT:: PROJECT CARD STYLE */
 .project.Complete {
   border-left: 4px solid #3cd17f;
+  transition: all 0.3s ease-in-out;
 }
 
 .project.Ongoing {
   border-left: 4px solid orange;
+  transition: all 0.3s ease-in-out;
 }
 
 .project.Overdue {
   border-left: 4px solid tomato;
+  transition: all 0.3s ease-in-out;
 }
+
+.project:hover {
+  transform: scale(1.03);
+}
+/* END:: PROJECT CARD STYLE */
+
+/* START:: CHIPS STYLE */
+.chip.Complete {
+  color: #3cd17f;
+  border-color: #3cd17f;
+}
+
+.chip.Ongoing {
+  color: orange;
+  border-color: orange;
+}
+
+.chip.Overdue {
+  color: tomato;
+  border-color: tomato;
+}
+/* END:: CHIPS STYLE */
 </style>
