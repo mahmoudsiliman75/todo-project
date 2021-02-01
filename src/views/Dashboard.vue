@@ -50,7 +50,8 @@ export default {
         { title: 'Vuetify App', person: 'Mahmoud Siliman', due: '5th May 2021', status: 'Ongoing', content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eos quasi, nam asperiores possimus ad placeat vel id facilis nemo maxime, odit vero enim suscipit aut ea ipsam aspernatur explicabo.' },
         { title: 'Laravel Website', person: 'Mohamed Eid', due: '15th May 2021', status: 'Ongoing', content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eos quasi, nam asperiores possimus ad placeat vel id facilis nemo maxime, odit vero enim suscipit aut ea ipsam aspernatur explicabo.' },
         { title: 'php Website', person: 'Mohamed Eid', due: '21th Jan 2021', status: 'Complete', content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eos quasi, nam asperiores possimus ad placeat vel id facilis nemo maxime, odit vero enim suscipit aut ea ipsam aspernatur explicabo.' },
-        { title: 'Vue Website', person: 'Mahmoud Siliman', due: '3rd Mars 2021', status: 'Overdue', content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eos quasi, nam asperiores possimus ad placeat vel id facilis nemo maxime, odit vero enim suscipit aut ea ipsam aspernatur explicabo.' },
+        { title: 'Vue Website', person: 'Mahmoud Siliman', due: '3rd Jan 2021', status: 'Overdue', content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eos quasi, nam asperiores possimus ad placeat vel id facilis nemo maxime, odit vero enim suscipit aut ea ipsam aspernatur explicabo.' },
+        { title: 'Django Website', person: 'Omar Ehab', due: '30rd Oct 2021', status: 'Complete', content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eos quasi, nam asperiores possimus ad placeat vel id facilis nemo maxime, odit vero enim suscipit aut ea ipsam aspernatur explicabo.' },
       ],
     };
   },
